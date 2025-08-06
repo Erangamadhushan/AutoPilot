@@ -1,0 +1,7 @@
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\bin\Debug\AutoPilot.exe.config
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\bin\Debug\AutoPilot.exe
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\bin\Debug\AutoPilot.pdb
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\obj\Debug\AutoPilot.csproj.AssemblyReference.cache
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\obj\Debug\AutoPilot.csproj.CoreCompileInputs.cache
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\obj\Debug\AutoPilot.exe
+D:\Eranga\C#\practise\AutoPilot\AutoPilot\obj\Debug\AutoPilot.pdb
