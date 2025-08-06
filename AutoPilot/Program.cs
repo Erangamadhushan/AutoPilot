@@ -1,20 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoPilot
+namespace AutoSharp
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Welcome to AutoPilot!");
-            Console.WriteLine("This is a simple console application to demonstrate basic functionality.");
+            Console.WriteLine("=== AutoSharp Automation Tool ===");
+            Console.WriteLine("Starting automation engine...");
+
+            // Your automation logic will go here
+            await RunAutomationTasks();
+
             Console.WriteLine("Press any key to exit...");
-            // Wait for user input before closing
             Console.ReadKey();
+        }
+
+        static async Task RunAutomationTasks()
+        {
+            // Placeholder for your automation tasks
+            Console.WriteLine("Automation tasks running...");
+            await Task.Delay(1000); // Simulate work
+            Console.WriteLine("Tasks completed!");
         }
     }
 }
