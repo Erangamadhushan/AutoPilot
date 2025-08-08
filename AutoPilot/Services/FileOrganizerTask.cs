@@ -8,9 +8,20 @@ namespace AutoPilot.Services
 {
     public class FileOrganizerTask : BaseAutomationTask
     {
+        public override string Name => "File Organizer Task";
+
+        public override string Description => "Organizes files into categorized folders based on their extensions.";
+
+        protected override async Task<TaskResult> ExecuteTaskAsync(AutomationConfig config)
+        {
+            // Implementation of the task logic goes here.  
+            // For now, returning a successful TaskResult.  
+            await Task.CompletedTask;
+            return new TaskResult { Success = true };
+        }
+
         private string GetCategoryFolder(string extension)
         {
-            // Define a mapping of file extensions to category folders  
             var categoryMapping = new Dictionary<string, string>
                {
                    { ".jpg", "Images" },
@@ -25,7 +36,6 @@ namespace AutoPilot.Services
                    { ".avi", "Videos" }
                };
 
-            // Return the category folder based on the extension, or "Others" if not found  
             return categoryMapping.TryGetValue(extension, out var category) ? category : "Others";
         }
     }
